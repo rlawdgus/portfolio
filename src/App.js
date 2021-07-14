@@ -1,7 +1,18 @@
-import React from "react";
+import Header from "./components/Header";
+import Contact from "./components/Contact";
+
+import Project from "./containers/Project";
+
+import "./stylesheets/reset.css";
 
 const App = () => {
-    return <>Github Page test</>;
+    return (
+        <>
+            <Header />
+            <Contact />
+            <Project />
+        </>
+    );
 };
 
 export default App;
