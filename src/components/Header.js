@@ -1,5 +1,6 @@
 import { ReactComponent as VsCode } from "../icons/vscode.svg";
 import { ReactComponent as Xd } from "../icons/xd.svg";
+import { ReactComponent as GitHub } from "../icons/github.svg";
 
 import "../stylesheets/Header.scss";
 
@@ -11,6 +12,9 @@ const Header = () => {
             <div className="tool">
                 <VsCode className="tool-icon" />
                 <Xd className="tool-icon" />
+                <a href="https://github.com/rlawdgus">
+                    <GitHub className="tool-icon" />
+                </a>
             </div>
         </header>
     );

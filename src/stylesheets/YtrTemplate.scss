@@ -1,0 +1,21 @@
+@import "./root.scss";
+
+.ytr-section {
+    .tool {
+        @include tool(230px, space-evenly);
+        margin-bottom: 20px;
+    }
+
+    .link {
+        @include tool(110px, space-evenly);
+        margin-bottom: 100px;
+
+        & > li {
+            transition: all 0.3s ease-in-out;
+
+            &:hover {
+                opacity: 0.3;
+            }
+        }
+    }
+}

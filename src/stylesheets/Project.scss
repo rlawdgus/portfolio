@@ -1,5 +1,11 @@
 main {
-    height: 2000px;
-    background-color: salmon;
-    text-align: center;
+    width: 90%;
+    max-width: 800px;
+    margin: 0 auto;
+
+    & > h1 {
+        font-size: 36px;
+        padding-bottom: 20px;
+        margin-bottom: 30px;
+    }
 }

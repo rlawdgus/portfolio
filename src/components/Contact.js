@@ -10,7 +10,7 @@ const Contact = () => {
                 <Phone className="contact-icon" /> 010-7205-5570
             </li>
             <li>
-                <Mail className="contact-icon" /> kjh557330@gmail.com
+                <Mail className="contact-icon" /> k557330@naver.com
             </li>
         </ul>
     );

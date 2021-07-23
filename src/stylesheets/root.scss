@@ -2,3 +2,17 @@ $p-max-width: 1000px;
 
 $ft-color-black: #222;
 $ft-color-grey: #666;
+
+@mixin tool($wd, $jsct) {
+    display: flex;
+    justify-content: $jsct;
+    align-items: center;
+    width: $wd;
+    margin: 0 auto;
+
+    .tool-icon {
+        width: 40px;
+        height: 40px;
+        vertical-align: bottom;
+    }
+}
