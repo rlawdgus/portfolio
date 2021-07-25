@@ -4,7 +4,9 @@ section {
     width: 100%;
 
     & > h2 {
+        font-family: "SEBANG_Gothic_Regular";
         font-size: 24px;
+        color: $ft-color-grey;
         margin-bottom: 20px;
     }
 
@@ -14,12 +16,12 @@ section {
     }
 
     .tool {
-        @include tool(190px, space-evenly);
+        @include tool;
         margin-bottom: 20px;
     }
 
     .link {
-        @include tool(110px, space-evenly);
+        @include tool;
         margin-bottom: 100px;
 
         & > li {
@@ -29,5 +31,11 @@ section {
                 opacity: 0.3;
             }
         }
+    }
+}
+
+@media (max-width: 375px) {
+    section > h2 {
+        font-size: 16px;
     }
 }

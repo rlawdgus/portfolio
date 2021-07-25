@@ -1,3 +1,5 @@
+@import "./root.scss";
+
 main {
     width: 90%;
     max-width: 800px;
@@ -5,7 +7,15 @@ main {
 
     & > h1 {
         font-size: 36px;
+        color: $ft-color-black;
         padding-bottom: 20px;
         margin-bottom: 30px;
+    }
+}
+
+@media (max-width: 375px) {
+    main > h1 {
+        font-size: 20px;
+        margin-bottom: 0;
     }
 }

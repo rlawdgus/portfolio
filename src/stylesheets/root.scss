@@ -3,16 +3,22 @@ $p-max-width: 1000px;
 $ft-color-black: #222;
 $ft-color-grey: #666;
 
-@mixin tool($wd, $jsct) {
+@mixin tool {
     display: flex;
-    justify-content: $jsct;
+    justify-content: space-evenly;
     align-items: center;
-    width: $wd;
     margin: 0 auto;
 
     .tool-icon {
         width: 40px;
         height: 40px;
         vertical-align: bottom;
+    }
+
+    @media (max-width: 375px) {
+        .tool-icon {
+            width: 36px;
+            height: 36px;
+        }
     }
 }

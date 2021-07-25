@@ -17,8 +17,8 @@ header {
     }
 
     .tool {
-        @include tool(150px, space-evenly);
-        padding-bottom: 100px;
+        @include tool;
+        padding-bottom: 200px;
 
         & > a {
             transition: all 0.3s ease-in-out;

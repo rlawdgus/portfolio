@@ -1,3 +1,19 @@
+@font-face {
+    font-family: "SEBANG_Gothic_Bold";
+    src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2104@1.0/SEBANG_Gothic_Bold.woff")
+        format("woff");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "SEBANG_Gothic_Regular";
+    src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2104@1.0/SEBANG_Gothic_Regular.woff")
+        format("woff");
+    font-weight: normal;
+    font-style: normal;
+}
+
 html,
 body,
 div,
@@ -84,7 +100,7 @@ video {
     border: 0;
     vertical-align: bottom;
     box-sizing: border-box;
-    font-family: "Noto Sans KR", sans-serif;
+    font-family: "SEBANG_Gothic_Bold";
     font-size: 12px;
 }
 article,

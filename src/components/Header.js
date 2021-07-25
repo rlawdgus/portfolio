@@ -5,11 +5,13 @@ import { ReactComponent as GitHub } from "../icons/github.svg";
 import "../stylesheets/Header.scss";
 
 const Header = () => {
+    const toolsWidth = 40 * 3 + 30 + "px";
+
     return (
         <header>
             <h1>김정현</h1>
             <h2>Front-End Developer</h2>
-            <div className="tool">
+            <div className="tool" style={{ width: toolsWidth }}>
                 <VsCode className="tool-icon" />
                 <Xd className="tool-icon" />
                 <a href="https://github.com/rlawdgus">
